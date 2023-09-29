@@ -1,5 +1,7 @@
 import React from "react";
-import { ReactDOM } from "react";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
+import Note from "../note/Note";
 
 
 
@@ -7,10 +9,13 @@ import { ReactDOM } from "react";
 function App() {
   return(
     <>
-    <header>
-      <h1>anıl</h1>
-    </header>
-    
+    <Header />
+    <main>
+      <Note />
+      <Note />
+    </main>
+    <Footer />
+
     </>
   );
 };
