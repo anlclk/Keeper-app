@@ -20,7 +20,6 @@ function App() {
     <Header />
     <main>
       {notes.map(addNote)}
-  
     </main>
     <Footer />
 
